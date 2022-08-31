@@ -481,102 +481,7 @@ header label {
 
 /* media queries  */
 
-
-/* For Desktop View */
-
-@media screen and (min-width: 1024px) {
-    .main {
-        background-color: #63c971;
-        color: #fff;
-    }
-}
-
-
-/* For Tablet View */
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .main {
-        width: 400px;
-        height: 400px;
-        background-color: orange;
-        color: black;
-    }
-}
-
-
-/* For Mobile Portrait View */
-
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
-    .main {
-        width: 200px;
-        height: 200px;
-        background-color: red;
-        color: #fff;
-    }
-}
-
-
-/* For Mobile Landscape View */
-
-@media screen and (max-device-width: 640px) and (orientation: landscape) {
-    .main {
-        width: 400px;
-        height: 200px;
-        background-color: cyan;
-        color: black;
-    }
-}
-
-
-/* For Mobile Phones Portrait or Landscape View */
-
-@media screen and (max-device-width: 640px) {
-    .main {
-        width: 400px;
-        height: 200px;
-        background-color: chartreuse;
-        color: black;
-    }
-}
-
-
-/* For iPhone 4 Portrait or Landscape View */
-
-@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    .main {
-        width: 400px;
-        height: 400px;
-        background-color: brown;
-        color: black;
-    }
-}
-
-
-/* For iPhone 5 Portrait or Landscape View */
-
-@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-    .main {
-        width: 400px;
-        height: 400px;
-        background-color: cornflowerblue;
-        color: black;
-    }
-}
-
-
-/* For iPhone 6 and 6 plus Portrait or Landscape View */
-
-@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
-    .main {
-        width: 400px;
-        height: 400px;
-        background-color: darkgoldenrod;
-        color: black;
-    }
-}
-
-
-/* @media (max-width:1200px) {
+@media (max-width:1200px) {
     html {
         font-size: 55%;
     }
@@ -652,4 +557,4 @@ header label {
     .about .column .content .buttons a:last-child {
         margin: 1rem 0;
     }
-} */
+}
